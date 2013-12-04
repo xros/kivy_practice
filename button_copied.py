@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.label import Label
@@ -20,11 +22,11 @@ class LoginScreen(GridLayout):
         self.btn1 = Button(text='Login', fontsize=14)
         self.add_widget(self.btn1)
     def on_checkbox_active(checkbox, value):            
-    '''
+        '''
         Once checkbox's state is changed.
         if checked, then pass "True" to on_checkbox_active
         if not, then pass "False" to on_checkbox_active
-    '''
+        '''
         if value:
             pass
         else:
