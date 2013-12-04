@@ -64,7 +64,6 @@ class MyPaintApp(App):
         clearbtn = Button(text="Clear", fontsize = 14)
         parent.add_widget(painter)
         parent.add_widget(clearbtn)
-        return MyPaintWidget()
         
         def clear_canvas(obj):
             painter.canvas.clear()
