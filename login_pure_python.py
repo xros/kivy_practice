@@ -19,7 +19,7 @@ class LoginScreen(GridLayout):
         self.add_widget(Label(text='Pass Word'))        # add widget label : content User Name
         self.password = TextInput(multiline=False, password=True)   #password auto-hidden
         self.add_widget(self.password)
-        self.btn1 = Button(text='Login', fontsize=14)   # add login button
+        self.btn1 = Button(text='Login', fontsize=14, height=30)   # add login button
         self.add_widget(self.btn1)
         self.btn2 = Button(text='Sign up', fontsize=14) # add Sign up button
         self.add_widget(self.btn2)
