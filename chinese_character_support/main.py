@@ -12,7 +12,7 @@ from kivy.resources import resource_add_path
 #from kivy.resources import resource_remove_path
 
 
-resource_add_path('/home/alex/sandbox/env_27_kivy/kivy_practice/chinese_character_support/static/')
+resource_add_path('static/')
 chineseFont = resource_find('DroidSansFallback.ttf')
 
 class LoginScreen(GridLayout):
