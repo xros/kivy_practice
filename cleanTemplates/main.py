@@ -12,7 +12,7 @@ class LoginScreen(GridLayout):
         super(LoginScreen, self).__init__(**kwargs)
         #self.cols = 3       # 3 columns 
         self.rows = 1       # 4 rows 
-        self.username = TextInput(text="boy inside", multiline=False)      # no multiline text input support
+        self.username = TextInput(text="boy inside", multiline=False, focus = True )      # no multiline text input support
         
         #def on_enter(instance, value):
         #    print ('User pressed enter in', instance)
