@@ -61,7 +61,7 @@ class MyPaintApp(App):
     def build(self):
         parent = Widget()
         painter = MyPaintWidget()
-        clearbtn = Button(text="Alex擦除", fontsize = 14)
+        clearbtn = Button(text=u'Alex擦除', fontsize = 14)
         parent.add_widget(painter)
         parent.add_widget(clearbtn)
         
