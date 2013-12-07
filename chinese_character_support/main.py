@@ -12,7 +12,8 @@ from kivy.resources import resource_add_path
 #from kivy.resources import resource_remove_path
 
 
-resource_add_path('static/')
+#resource_add_path('static/')
+resource_add_path('/system/fonts/')
 chineseFont = resource_find('DroidSansFallback.ttf')
 
 class LoginScreen(GridLayout):
